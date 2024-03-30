@@ -1,0 +1,562 @@
+2024-01-06 23:17:04 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: scraper)
+2024-01-06 23:17:04 [scrapy.utils.log] INFO: Versions: lxml 5.0.1.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.3.0 (OpenSSL 3.1.4 24 Oct 2023), cryptography 41.0.7, Platform Windows-10-10.0.22621-SP0
+2024-01-06 23:17:04 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-01-06 23:17:04 [asyncio] DEBUG: Using selector: SelectSelector
+2024-01-06 23:17:04 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-01-06 23:17:04 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-01-06 23:17:04 [scrapy.extensions.telnet] INFO: Telnet Password: 6ed7a507ceaf371f
+2024-01-06 23:17:04 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-01-06 23:17:04 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scraper',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'myspider.log',
+ 'NEWSPIDER_MODULE': 'scraper.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-01-06 23:17:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-01-06 23:17:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-01-06 23:17:04 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-01-06 23:17:04 [scrapy.core.engine] INFO: Spider opened
+2024-01-06 23:17:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-06 23:17:04 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6025
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/robots.txt> (referer: None)
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/az-list> (referer: None)
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hacklegend-of-the-twilight-5303> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackgu-trilogy-2965> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackliminality-5194> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/hacklegend-of-the-twilight-5303>
+{'name': '.hack//Legend Of The Twilight', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/7c/41/7c415c1cfb7480e2bcdae300578e7d9d/7c415c1cfb7480e2bcdae300578e7d9d.jpg', 'episodes': '12', 'rating': 'PG-13', 'japanese': '.hack//黄昏の腕輪伝説', 'Synonyms': ['.hack//Udeden', ' .hack//Legend of the Twilight Bracelet', ' .hack//DUSK'], 'Aired': 'Jan 9, 2003 to Mar 27, 2003', 'Premiered': 'Winter 2003', 'Duration': '23m', 'Status': 'Finished Airing', 'MAL Score': '6.6', 'Genres': ['Adventure', 'Comedy', 'Fantasy', 'Game', 'Sci-Fi', 'Shounen'], 'Studio': 'Bandai Visual', 'Producer': 'Bee Train'}
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackroots-3886> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hacksign-3573> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackquantum-2790> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackgift-7345> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/hackgu-trilogy-2965> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/hackliminality-5194>
+{'name': '.hack//Liminality', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/ca/98/ca989d456b2a2ef0a65706259791dcd9/ca989d456b2a2ef0a65706259791dcd9.jpg', 'episodes': '4', 'rating': 'PG-13', 'japanese': '.hack//LIMINALITY', 'Synonyms': ['Hack OVA'], 'Aired': 'Jun 20, 2002 to Apr 10, 2003', 'Premiered': 'Summer 2002', 'Duration': '33m', 'Status': 'Finished Airing', 'MAL Score': '6.62', 'Genres': ['Mystery', 'Game', 'Sci-Fi'], 'Studio': 'Bandai Visual', 'Producer': 'Bee Train'}
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/hackroots-3886> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/hacksign-3573> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/hackquantum-2790> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/hackgift-7345> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/3d-kanojo-real-girl-2nd-season-1104> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/my-star-18330> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/real-girl-4517> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/bungaku-shoujo-movie-1802> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/bungaku-shoujo-memoire-2108> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/3d-kanojo-real-girl-2nd-season-1104>
+{'name': '3D Kanojo: Real Girl 2nd Season', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/50/d4/50d4d12f6e89b99049d1436f4a064bfb/50d4d12f6e89b99049d1436f4a064bfb.jpg', 'episodes': '12', 'rating': 'PG-13', 'japanese': '3D彼女 リアルガール第2シーズン', 'Synonyms': ['3D Girlfriend 2nd Season'], 'Aired': 'Jan 9, 2019 to Mar 27, 2019', 'Premiered': 'Winter 2019', 'Duration': '22m', 'Status': 'Finished Airing', 'MAL Score': '7.67', 'Genres': ['Romance', 'School', 'Shoujo'], 'Studio': 'VAP', 'Producer': 'Hoods Entertainment'}
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/my-star-18330>
+{'name': 'My Star', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/99/59/995928d6858977d66f7da57e0e0af08a/995928d6858977d66f7da57e0e0af08a.jpg', 'episodes': '11', 'rating': 'PG-13', 'japanese': '【推しの子】', 'Synonyms': ['My Star'], 'Aired': 'Mar 17, 2023 to Jun 28, 2023', 'Premiered': 'Spring 2023', 'Duration': '24m', 'Status': 'Finished Airing', 'MAL Score': '9.33', 'Genres': ['Drama', 'Music', 'Supernatural', 'Seinen'], 'Studio': 'Kadokawa', 'Producer': 'Doga Kobo'}
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/real-girl-4517>
+{'name': 'Real Girl', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/ee/4d/ee4de88427eea72d4b4a947148604e7d/ee4de88427eea72d4b4a947148604e7d.jpg', 'episodes': '12', 'rating': 'PG-13', 'japanese': '３Ｄ彼女\u3000リアルガール', 'Synonyms': ['3D Girlfriend'], 'Aired': 'Apr 4, 2018 to Jun 20, 2018', 'Premiered': 'Spring 2018', 'Duration': '22m', 'Status': 'Finished Airing', 'MAL Score': '6.77', 'Genres': ['Romance', 'School', 'Shoujo'], 'Studio': 'DeNA', 'Producer': 'Hoods Entertainment'}
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/bungaku-shoujo-movie-1802>
+{'name': '"Bungaku Shoujo" Movie', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/5c/85/5c856ead9e5043c296d699c595fe2174/5c856ead9e5043c296d699c595fe2174.jpg', 'episodes': '1', 'rating': 'PG-13', 'japanese': '劇場版“文学少女”', 'Synonyms': ['Book Girl', ' Literature Girl'], 'Aired': 'May 1, 2010', 'Premiered': 'Spring 2010', 'Duration': '1h 40m', 'Status': 'Finished Airing', 'MAL Score': '7.43', 'Genres': ['Mystery', 'Drama', 'Romance', 'School'], 'Studio': 'Lantis', 'Producer': 'Production I.G'}
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/bungaku-shoujo-memoire-2108>
+{'name': '"Bungaku Shoujo" Memoire', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/ec/bd/ecbd6f5adeafe00f25fd1031504d2a8c/ecbd6f5adeafe00f25fd1031504d2a8c.jpg', 'episodes': '3', 'rating': 'PG-13', 'japanese': '“文学少女”メモワール', 'Synonyms': ['Book Girl: Memoire', ' Literature Girl: Memoire'], 'Aired': 'Jun 25, 2010 to Dec 24, 2010', 'Premiered': 'Spring 2010', 'Duration': '24m', 'Status': 'Finished Airing', 'MAL Score': '7.35', 'Genres': ['Drama', 'Romance', 'School'], 'Studio': 'Lantis', 'Producer': 'Production I.G'}
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackgu-returner-4688> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackintermezzo-5449> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/hackgu-returner-4688> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/marches-comes-in-like-a-lion-special-omnibus-episode-4782> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/the-glass-mask-year-3-class-d-10430> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/hackintermezzo-5449>
+{'name': '.hack//Intermezzo', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/20/06/20068dbb6c6a731c9fb34185ddc44c0f/20068dbb6c6a731c9fb34185ddc44c0f.jpg', 'episodes': '1', 'rating': 'PG-13', 'japanese': '.hack//Intermezzo', 'Synonyms': ['.hack//Another Story', ' .hack//SIGN Episode 27'], 'Aired': 'Mar 28, 2003', 'Premiered': 'Spring 2003', 'Duration': '24m', 'Status': 'Finished Airing', 'MAL Score': '6.57', 'Genres': ['Adventure', 'Mystery', 'Fantasy', 'Game', 'Magic', 'Sci-Fi'], 'Studio': 'Bee Train', 'Producer': 'Bee Train'}
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/227-4292> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/bungaku-shoujo-kyou-no-oyatsu-hatsukoi-3885> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/march-comes-in-like-a-lion-2nd-season-9> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/marches-comes-in-like-a-lion-special-omnibus-episode-4782> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/the-glass-mask-year-3-class-d-10430> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/march-comes-in-like-a-lion-119> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/227-4292>
+{'name': '22/7', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/e2/b9/e2b9386d914d9d1901cee0cdbb807df3/e2b9386d914d9d1901cee0cdbb807df3.jpg', 'episodes': '12', 'rating': 'PG-13', 'japanese': '22/7', 'Synonyms': ['Nanabun no Nijyuuni', ' Nanabun no Nijuuni'], 'Aired': 'Jan 11, 2020 to Mar 28, 2020', 'Premiered': 'Winter 2020', 'Duration': '24m', 'Status': 'Finished Airing', 'MAL Score': '6.82', 'Genres': ['Music'], 'Studio': 'Aniplex', 'Producer': 'A-1 Pictures'}
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/bungaku-shoujo-kyou-no-oyatsu-hatsukoi-3885>
+{'name': '"Bungaku Shoujo" Kyou no Oyatsu: Hatsukoi', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/59/ce/59ce9282ff53efcd1777584ee1a06579/59ce9282ff53efcd1777584ee1a06579.jpg', 'episodes': '1', 'rating': 'PG-13', 'japanese': '“文学少女”今日のおやつ 〜はつ恋〜', 'Synonyms': ['Bungaku Shoujo OVA', ' Book Girl OVA', ' Literature Girl OVA'], 'Aired': 'Dec 26, 2009', 'Premiered': 'Fall 2009', 'Duration': '15m', 'Status': 'Finished Airing', 'MAL Score': '6.92', 'Genres': ['Comedy', 'Fantasy', 'School'], 'Studio': 'Lantis', 'Producer': 'Production I.G'}
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/march-comes-in-like-a-lion-2nd-season-9>
+{'name': 'March Comes In Like A Lion 2nd Season', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/8a/7f/8a7f6d658709105486e07b3ebdd5b273/8a7f6d658709105486e07b3ebdd5b273.jpg', 'episodes': '22', 'rating': 'PG-13', 'japanese': '3月のライオン 第2シリーズ', 'Synonyms': ['Sangatsu no Lion Second Season'], 'Aired': 'Oct 14, 2017 to Mar 31, 2018', 'Premiered': 'Fall 2017', 'Duration': '25m', 'Status': 'Finished Airing', 'MAL Score': '8.97', 'Genres': ['Drama', 'Game', 'Slice of Life', 'Seinen'], 'Studio': 'Aniplex', 'Producer': 'Shaft'}
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/243-seiin-high-school-boys-volleyball-team-15630> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/march-comes-in-like-a-lion-119>
+{'name': 'March comes in like a lion', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/e1/80/e180b296778df8a296b4532d11058183/e180b296778df8a296b4532d11058183.jpg', 'episodes': '22', 'rating': 'PG-13', 'japanese': '3月のライオン', 'Synonyms': ['Sangatsu no Lion'], 'Aired': 'Oct 8, 2016 to Mar 18, 2017', 'Premiered': 'Fall 2016', 'Duration': '25m', 'Status': 'Finished Airing', 'MAL Score': '8.4', 'Genres': ['Drama', 'Game', 'Slice of Life', 'Seinen'], 'Studio': 'Aniplex', 'Producer': 'Shaft'}
+2024-01-06 23:17:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/243-seiin-high-school-boys-volleyball-team-15630> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/can-i-make-your-ears-happy-in-180-seconds-17915> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/age-12-6074> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/11eyes-7242> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/age-12-2nd-season-5195> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/can-i-make-your-ears-happy-in-180-seconds-17915>
+{'name': 'Can I Make Your Ears Happy in 180 Seconds?', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/34/1c/341cc1b441eda98734b08cd16e31cdae/341cc1b441eda98734b08cd16e31cdae.jpg', 'episodes': '12', 'rating': 'PG-13', 'japanese': '180秒で君の耳を幸せにできるか?', 'Synonyms': ['Can I Make Your Ears Happy in 180 Seconds?'], 'Aired': '?', 'Premiered': 'Fall 2021', 'Duration': '5m', 'Status': 'Finished Airing', 'MAL Score': '?', 'Genres': ['Slice of Life'], 'Studio': 'INDIVISION', 'Producer': 'EKACHI EPILKA'}
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/16bit-sensation-another-layer-18610> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/im-standing-on-1000000-lives-17393> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/age-12-6074>
+{'name': 'Age 12.', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/05/46/05468c1c7f54abcdabf08cbd48387bb4/05468c1c7f54abcdabf08cbd48387bb4.jpg', 'episodes': '12', 'rating': 'PG', 'japanese': '12歳。～ちっちゃなムネのトキメキ～', 'Synonyms': ['Age 12.', ' Juuni-sai.', ' 12-sai.: Chicchana Mune no Tokimeki', ' 12-sai', ' Chicchana Mune no Tokimeki'], 'Aired': 'Apr 4, 2016 to Jun 20, 2016', 'Premiered': 'Spring 2016', 'Duration': '24m', 'Status': 'Finished Airing', 'MAL Score': '6.44', 'Genres': ['Romance', 'School', 'Shoujo'], 'Studio': 'Shogakukan-Shueisha Productions', 'Producer': 'OLM'}
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/11eyes-7242>
+{'name': '11eyes', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/a0/5e/a05e3093a45c709b47d38d098c2722bd/a05e3093a45c709b47d38d098c2722bd.jpg', 'episodes': '12', 'rating': 'R', 'japanese': '11eyes イレブンアイズ', 'Synonyms': ['11eyes -Tsumi to Batsu to Aganai no Shoujo-'], 'Aired': 'Oct 7, 2009 to Dec 23, 2009', 'Premiered': 'Fall 2009', 'Duration': '25m', 'Status': 'Finished Airing', 'MAL Score': '6.19', 'Genres': ['Action', 'Ecchi', 'Super Power', 'Supernatural'], 'Studio': 'Marvelous', 'Producer': 'Doga Kobo'}
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/age-12-2nd-season-5195>
+{'name': 'Age 12.: 2nd Season', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/39/8d/398d8fecfb719cd0ef54707eecfd610c/398d8fecfb719cd0ef54707eecfd610c.jpg', 'episodes': '12', 'rating': 'PG', 'japanese': '12歳。～ちっちゃなムネのトキメキ～', 'Synonyms': ['Age 12.', ' Juuni-sai.', ' 12-sai.: Chicchana Mune no Tokimeki', ' 12-sai', ' Chicchana Mune no Tokimeki'], 'Aired': 'Oct 3, 2016 to Dec 19, 2016', 'Premiered': 'Fall 2016', 'Duration': '24m', 'Status': 'Finished Airing', 'MAL Score': '6.62', 'Genres': ['Romance', 'School', 'Shoujo'], 'Studio': 'Shogakukan-Shueisha Productions', 'Producer': 'OLM'}
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/im-standing-on-1000000-lives-5739> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/16bit-sensation-another-layer-18610> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/18if-7243> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/im-standing-on-1000000-lives-17393> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 39, in parse_detail
+    'Studio':list2[0],
+IndexError: list index out of range
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/im-standing-on-1000000-lives-5739>
+{'name': "I'm standing on 1,000,000 lives.", 'image': 'https://img.flawlessfiles.com/_r/300x400/100/f0/d7/f0d77e6070d4b7be466d5a146ae69e09/f0d77e6070d4b7be466d5a146ae69e09.jpg', 'episodes': '12', 'rating': 'G', 'japanese': '100万の命の上に俺は立っている', 'Synonyms': ["I'm Standing on a Million Lives"], 'Aired': 'Oct 2, 2020 to Dec 18, 2020', 'Premiered': 'Fall 2020', 'Duration': '23m', 'Status': 'Finished Airing', 'MAL Score': '6.46', 'Genres': ['Action', 'Drama', 'Fantasy', 'Game', 'Shounen', 'Isekai'], 'Studio': 'Lantis', 'Producer': 'Maho Film'}
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/18if-7243>
+{'name': '18if', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/8f/91/8f91bd4d6ae14da74386284e81bb4707/8f91bd4d6ae14da74386284e81bb4707.jpg', 'episodes': '13', 'rating': 'R', 'japanese': '18if', 'Synonyms': ['18 If'], 'Aired': 'Jul 7, 2017 to Sep 29, 2017', 'Premiered': 'Summer 2017', 'Duration': '23m', 'Status': 'Finished Airing', 'MAL Score': '6.19', 'Genres': ['Mystery', 'Supernatural'], 'Studio': 'Sotsu', 'Producer': 'Gonzo'}
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/009-1-6880> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/009-1-rb-6590> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/100-teacher-pascal-8878> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/07-ghost-2503> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/009-recyborg-5553> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/009-1-6880>
+{'name': '009-1', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/3c/b7/3cb71cdfad7874c5223c16f15e732421/3cb71cdfad7874c5223c16f15e732421.jpg', 'episodes': '12', 'rating': 'R', 'japanese': 'ゼロゼロナインワン', 'Synonyms': ['Zero Zero Nine One'], 'Aired': 'Oct 6, 2006 to Dec 22, 2006', 'Premiered': 'Fall 2006', 'Duration': '25m', 'Status': 'Finished Airing', 'MAL Score': '6.27', 'Genres': ['Action', 'Mecha', 'Sci-Fi', 'Seinen'], 'Studio': 'Aniplex', 'Producer': 'Ishimori Entertainment'}
+2024-01-06 23:17:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/009-1-rb-6590> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/100-teacher-pascal-8878> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/07-ghost-2503>
+{'name': '07-Ghost', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/dc/ba/dcbadaeb8aa3aee97f9fbf575754c329/dcbadaeb8aa3aee97f9fbf575754c329.jpg', 'episodes': '25', 'rating': 'PG-13', 'japanese': 'セブンゴースト', 'Synonyms': ['07 Ghost', ' Seven Ghost', ' 7 Ghosts', ' The Seven Ghosts'], 'Aired': 'Apr 7, 2009 to Sep 22, 2009', 'Premiered': 'Spring 2009', 'Duration': '23m', 'Status': 'Finished Airing', 'MAL Score': '7.26', 'Genres': ['Action', 'Demons', 'Fantasy', 'Magic', 'Military', 'Josei'], 'Studio': 'Ichijinsha', 'Producer': 'Studio Deen'}
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackunison-4812> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://aniwatchtv.to/009-recyborg-5553> (referer: https://aniwatchtv.to/az-list)
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\adity\Documents\Coding\Scrapy\scraper\scraper\spiders\AniWatchSpider.py", line 37, in parse_detail
+    'MAL Score': lists[6],
+IndexError: list index out of range
+2024-01-06 23:17:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://aniwatchtv.to/hackbeyond-the-world-2892> (referer: https://aniwatchtv.to/az-list)
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/hackunison-4812>
+{'name': '.hack//Unison', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/92/00/920038ce8947d09b32102efe0da8b8d3/920038ce8947d09b32102efe0da8b8d3.jpg', 'episodes': '1', 'rating': 'PG-13', 'japanese': '.hack//Unison', 'Synonyms': ['.hack//SIGN Episode 28'], 'Aired': 'Oct 24, 2003', 'Premiered': 'Fall 2003', 'Duration': '24m', 'Status': 'Finished Airing', 'MAL Score': '6.69', 'Genres': ['Adventure', 'Comedy', 'Fantasy', 'Game', 'Magic', 'Sci-Fi'], 'Studio': 'Bandai Visual', 'Producer': 'Bee Train'}
+2024-01-06 23:17:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://aniwatchtv.to/hackbeyond-the-world-2892>
+{'name': '.hack//Beyond the World', 'image': 'https://img.flawlessfiles.com/_r/300x400/100/32/17/3217ad7f08a208c7537b6dd199bf29a9/3217ad7f08a208c7537b6dd199bf29a9.jpg', 'episodes': '1', 'rating': 'PG-13', 'japanese': '.hack//The Movie セカイの向こうに', 'Synonyms': ['.hack//Beyond the World'], 'Aired': 'Jan 21, 2012', 'Premiered': 'Spring 2012', 'Duration': '1h 50m', 'Status': 'Finished Airing', 'MAL Score': '7.15', 'Genres': ['Action', 'Adventure', 'Mystery', 'Fantasy', 'Game', 'Magic', 'Sci-Fi'], 'Studio': 'Bandai', 'Producer': 'Anima'}
+2024-01-06 23:17:07 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-01-06 23:17:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10445,
+ 'downloader/request_count': 38,
+ 'downloader/request_method_count/GET': 38,
+ 'downloader/response_bytes': 1214386,
+ 'downloader/response_count': 38,
+ 'downloader/response_status_count/200': 38,
+ 'elapsed_time_seconds': 2.768955,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 6, 17, 47, 7, 612784, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 5911373,
+ 'httpcompression/response_count': 38,
+ 'item_scraped_count': 22,
+ 'log_count/DEBUG': 63,
+ 'log_count/ERROR': 14,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 38,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 37,
+ 'scheduler/dequeued/memory': 37,
+ 'scheduler/enqueued': 37,
+ 'scheduler/enqueued/memory': 37,
+ 'spider_exceptions/IndexError': 14,
+ 'start_time': datetime.datetime(2024, 1, 6, 17, 47, 4, 843829, tzinfo=datetime.timezone.utc)}
+2024-01-06 23:17:07 [scrapy.core.engine] INFO: Spider closed (finished)

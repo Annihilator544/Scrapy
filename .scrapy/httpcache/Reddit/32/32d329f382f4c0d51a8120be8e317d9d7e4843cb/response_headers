@@ -1,0 +1,17 @@
+Content-Length: 404
+Retry-After: 0
+Set-Cookie: rdt=0b3accdbd4bf096fcb18c8a68854fb2d; path=/; domain=.reddit.com; samesite=none; secure;
+Set-Cookie: edgebucket=mhvgdWWX3p0qm9UJUC; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Location: /r/midjourney/new/?rdt=56503
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Date: Sat, 30 Mar 2024 22:11:49 GMT
+Via: 1.1 varnish
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Cache-Control: private, max-age=3600
+Server: snooserv
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}

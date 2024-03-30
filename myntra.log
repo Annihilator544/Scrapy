@@ -1,0 +1,453 @@
+2024-01-08 19:15:09 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: scraper)
+2024-01-08 19:15:09 [scrapy.utils.log] INFO: Versions: lxml 5.0.1.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.3.0 (OpenSSL 3.1.4 24 Oct 2023), cryptography 41.0.7, Platform Windows-10-10.0.22621-SP0
+2024-01-08 19:15:51 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: scraper)
+2024-01-08 19:15:51 [scrapy.utils.log] INFO: Versions: lxml 5.0.1.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.3.0 (OpenSSL 3.1.4 24 Oct 2023), cryptography 41.0.7, Platform Windows-10-10.0.22621-SP0
+2024-01-08 19:15:51 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-01-08 19:15:51 [asyncio] DEBUG: Using selector: SelectSelector
+2024-01-08 19:15:51 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-01-08 19:15:51 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-01-08 19:15:51 [scrapy.extensions.telnet] INFO: Telnet Password: 1f72111939729ef1
+2024-01-08 19:15:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-01-08 19:15:51 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scraper',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'myntra.log',
+ 'NEWSPIDER_MODULE': 'scraper.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; '
+               'Googlebot/2.1; +http://www.google.com/bot.html) '
+               'Chrome/120.0.6099.71 Safari/537.36'}
+2024-01-08 19:15:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-01-08 19:15:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-01-08 19:15:51 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-01-08 19:15:51 [scrapy.core.engine] INFO: Spider opened
+2024-01-08 19:15:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:15:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-01-08 19:16:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:17:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:18:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:18:51 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.myntra.com/robots.txt> (failed 1 times): User timeout caused connection failure: Getting https://www.myntra.com/robots.txt took longer than 180.0 seconds..
+2024-01-08 19:19:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:20:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:21:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:21:52 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.myntra.com/robots.txt> (failed 2 times): User timeout caused connection failure: Getting https://www.myntra.com/robots.txt took longer than 180.0 seconds..
+2024-01-08 19:22:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:23:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:24:34 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: scraper)
+2024-01-08 19:24:34 [scrapy.utils.log] INFO: Versions: lxml 5.0.1.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.3.0 (OpenSSL 3.1.4 24 Oct 2023), cryptography 41.0.7, Platform Windows-10-10.0.22621-SP0
+2024-01-08 19:24:34 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-01-08 19:24:34 [asyncio] DEBUG: Using selector: SelectSelector
+2024-01-08 19:24:34 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-01-08 19:24:34 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-01-08 19:24:34 [scrapy.extensions.telnet] INFO: Telnet Password: 4cb7c9f175041715
+2024-01-08 19:24:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-01-08 19:24:34 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scraper',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'myntra.log',
+ 'NEWSPIDER_MODULE': 'scraper.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Android
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV13, Brand: Sony, Model: BDV13
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Nintendo DSi, Brand: Nintendo, Model: DSi
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF F90M, Brand: LYF, Model: F90M
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV14, Brand: Sony, Model: BDV14
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LG Web0S SmartTV, Brand: LG, Model: Web0S SmartTV
+2024-01-08 19:24:35 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV11, Brand: Sony, Model: BDV11
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Nintendo DSi, Brand: Nintendo, Model: DSi
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF LF-2403N, Brand: LYF, Model: LF-2403N
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF F90M, Brand: LYF, Model: F90M
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Applebot
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Applebot
+2024-01-08 19:24:36 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: SMTBot
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: WebKit Nightly
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Robot
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:24:37 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Zune
+2024-01-08 19:24:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy_user_agents.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-01-08 19:24:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-01-08 19:24:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-01-08 19:24:37 [scrapy.core.engine] INFO: Spider opened
+2024-01-08 19:24:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:24:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-01-08 19:24:37 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+2024-01-08 19:25:41 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: scraper)
+2024-01-08 19:25:41 [scrapy.utils.log] INFO: Versions: lxml 5.0.1.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 23.3.0 (OpenSSL 3.1.4 24 Oct 2023), cryptography 41.0.7, Platform Windows-10-10.0.22621-SP0
+2024-01-08 19:25:41 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-01-08 19:25:41 [asyncio] DEBUG: Using selector: SelectSelector
+2024-01-08 19:25:41 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-01-08 19:25:41 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-01-08 19:25:41 [scrapy.extensions.telnet] INFO: Telnet Password: 2b952b59374d8b56
+2024-01-08 19:25:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-01-08 19:25:41 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scraper',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'myntra.log',
+ 'NEWSPIDER_MODULE': 'scraper.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scraper.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-01-08 19:25:41 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Android
+2024-01-08 19:25:41 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:41 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV13, Brand: Sony, Model: BDV13
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Nintendo DSi, Brand: Nintendo, Model: DSi
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF F90M, Brand: LYF, Model: F90M
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV14, Brand: Sony, Model: BDV14
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LG Web0S SmartTV, Brand: LG, Model: Web0S SmartTV
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Sony BDV11, Brand: Sony, Model: BDV11
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Nintendo DSi, Brand: Nintendo, Model: DSi
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF LF-2403N, Brand: LYF, Model: LF-2403N
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: LYF F90M, Brand: LYF, Model: F90M
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:42 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Applebot
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Applebot
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Other
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: SMTBot
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: WebKit Nightly
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: PhantomJS
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Robot
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedDeviceType] Family: Other, Brand: None, Model: None
+2024-01-08 19:25:43 [scrapy_user_agents.user_agent_picker] WARNING: [UnsupportedBrowserType] Family: Zune
+2024-01-08 19:25:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy_user_agents.middlewares.RandomUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy_proxy_pool.middlewares.ProxyPoolMiddleware',
+ 'scrapy_proxy_pool.middlewares.BanDetectionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-01-08 19:25:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-01-08 19:25:43 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-01-08 19:25:43 [scrapy.core.engine] INFO: Spider opened
+2024-01-08 19:25:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:25:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-01-08 19:25:43 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+2024-01-08 19:25:43 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-01-08 19:25:44 [urllib3.connectionpool] DEBUG: https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:25:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:25:44 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /uk-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:25:44 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:25:45 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /anonymous-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:25:45 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.free-proxy-list.net:80
+2024-01-08 19:25:46 [urllib3.connectionpool] DEBUG: http://www.free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:25:46 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.free-proxy-list.net:443
+2024-01-08 19:25:47 [urllib3.connectionpool] DEBUG: https://www.free-proxy-list.net:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:25:47 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): free-proxy-list.net:80
+2024-01-08 19:25:47 [urllib3.connectionpool] DEBUG: http://free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:25:47 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:25:47 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:25:47 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.us-proxy.org:443
+2024-01-08 19:25:48 [urllib3.connectionpool] DEBUG: https://www.us-proxy.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:25:48 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.proxy-daily.com:80
+2024-01-08 19:25:49 [urllib3.connectionpool] DEBUG: http://www.proxy-daily.com:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:25:49 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.proxy-daily.com:443
+2024-01-08 19:25:49 [urllib3.connectionpool] DEBUG: https://www.proxy-daily.com:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:25:49 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): proxy-daily.com:443
+2024-01-08 19:25:50 [urllib3.connectionpool] DEBUG: https://proxy-daily.com:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:25:51 [charset_normalizer] DEBUG: Encoding detection: utf_8 is most likely the one.
+2024-01-08 19:25:51 [scrapy_proxy_pool.middlewares] WARNING: No proxies available.
+2024-01-08 19:25:51 [scrapy_proxy_pool.middlewares] INFO: Try to download with host ip.
+2024-01-08 19:26:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:27:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:28:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:28:51 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.myntra.com/robots.txt> (failed 1 times): User timeout caused connection failure: Getting https://www.myntra.com/robots.txt took longer than 180.0 seconds..
+2024-01-08 19:28:51 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2024-01-08 19:28:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-01-08 19:28:51 [urllib3.connectionpool] DEBUG: https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:28:51 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:28:52 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /uk-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:28:52 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:28:53 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /anonymous-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:28:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.free-proxy-list.net:80
+2024-01-08 19:28:53 [urllib3.connectionpool] DEBUG: http://www.free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:28:53 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.free-proxy-list.net:443
+2024-01-08 19:28:54 [urllib3.connectionpool] DEBUG: https://www.free-proxy-list.net:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:28:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): free-proxy-list.net:80
+2024-01-08 19:28:54 [urllib3.connectionpool] DEBUG: http://free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:28:54 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:28:55 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:28:55 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.us-proxy.org:443
+2024-01-08 19:28:56 [urllib3.connectionpool] DEBUG: https://www.us-proxy.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:28:56 [scrapy_proxy_pool.middlewares] WARNING: No proxies available.
+2024-01-08 19:28:56 [scrapy_proxy_pool.middlewares] INFO: Try to download with host ip.
+2024-01-08 19:29:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:30:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:31:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:31:56 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.myntra.com/robots.txt> (failed 2 times): User timeout caused connection failure: Getting https://www.myntra.com/robots.txt took longer than 180.0 seconds..
+2024-01-08 19:31:56 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+2024-01-08 19:31:56 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-01-08 19:31:56 [urllib3.connectionpool] DEBUG: https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:31:56 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:31:57 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /uk-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:31:57 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:31:58 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /anonymous-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:31:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.free-proxy-list.net:80
+2024-01-08 19:31:58 [urllib3.connectionpool] DEBUG: http://www.free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:31:58 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.free-proxy-list.net:443
+2024-01-08 19:31:58 [urllib3.connectionpool] DEBUG: https://www.free-proxy-list.net:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:31:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): free-proxy-list.net:80
+2024-01-08 19:31:59 [urllib3.connectionpool] DEBUG: http://free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:31:59 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:31:59 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:31:59 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.us-proxy.org:443
+2024-01-08 19:32:00 [urllib3.connectionpool] DEBUG: https://www.us-proxy.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:32:00 [scrapy_proxy_pool.middlewares] WARNING: No proxies available.
+2024-01-08 19:32:00 [scrapy_proxy_pool.middlewares] INFO: Try to download with host ip.
+2024-01-08 19:32:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:33:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:34:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:35:00 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.myntra.com/robots.txt> (failed 3 times): User timeout caused connection failure: Getting https://www.myntra.com/robots.txt took longer than 180.0 seconds..
+2024-01-08 19:35:00 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://www.myntra.com/robots.txt>: User timeout caused connection failure: Getting https://www.myntra.com/robots.txt took longer than 180.0 seconds..
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 1693, in _inlineCallbacks
+    result = context.run(
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\python\failure.py", line 518, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\downloader\middleware.py", line 54, in process_request
+    return (yield download_func(request=request, spider=spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 397, in _cb_timeout
+    raise TimeoutError(f"Getting {url} took longer than {timeout} seconds.")
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.myntra.com/robots.txt took longer than 180.0 seconds..
+2024-01-08 19:35:00 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+2024-01-08 19:35:00 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-01-08 19:35:01 [urllib3.connectionpool] DEBUG: https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:35:01 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:35:02 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /uk-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:35:02 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /anonymous-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.free-proxy-list.net:80
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: http://www.free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.free-proxy-list.net:443
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: https://www.free-proxy-list.net:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): free-proxy-list.net:80
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: http://free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:35:03 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:35:04 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:35:04 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.us-proxy.org:443
+2024-01-08 19:35:05 [urllib3.connectionpool] DEBUG: https://www.us-proxy.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:35:05 [scrapy_proxy_pool.middlewares] WARNING: No proxies available.
+2024-01-08 19:35:05 [scrapy_proxy_pool.middlewares] INFO: Try to download with host ip.
+2024-01-08 19:35:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:35:43 [scrapy_proxy_pool.middlewares] INFO: Blacklist is cleared.
+2024-01-08 19:36:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:37:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:38:05 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.myntra.com/> (failed 1 times): User timeout caused connection failure: Getting https://www.myntra.com/ took longer than 180.0 seconds..
+2024-01-08 19:38:05 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+2024-01-08 19:38:05 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-01-08 19:38:05 [urllib3.connectionpool] DEBUG: https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:38:05 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:38:06 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /uk-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:38:06 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:38:06 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /anonymous-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.free-proxy-list.net:80
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: http://www.free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.free-proxy-list.net:443
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: https://www.free-proxy-list.net:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): free-proxy-list.net:80
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: http://free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:38:07 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:38:08 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.us-proxy.org:443
+2024-01-08 19:38:08 [urllib3.connectionpool] DEBUG: https://www.us-proxy.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:38:09 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.proxy-daily.com:80
+2024-01-08 19:38:09 [urllib3.connectionpool] DEBUG: http://www.proxy-daily.com:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:38:09 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.proxy-daily.com:443
+2024-01-08 19:38:10 [urllib3.connectionpool] DEBUG: https://www.proxy-daily.com:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:38:10 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): proxy-daily.com:443
+2024-01-08 19:38:10 [urllib3.connectionpool] DEBUG: https://proxy-daily.com:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:38:11 [charset_normalizer] DEBUG: Encoding detection: utf_8 is most likely the one.
+2024-01-08 19:38:11 [scrapy_proxy_pool.middlewares] WARNING: No proxies available.
+2024-01-08 19:38:11 [scrapy_proxy_pool.middlewares] INFO: Try to download with host ip.
+2024-01-08 19:38:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:39:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:40:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:41:11 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://www.myntra.com/> (failed 2 times): User timeout caused connection failure: Getting https://www.myntra.com/ took longer than 180.0 seconds..
+2024-01-08 19:41:11 [scrapy_user_agents.middlewares] DEBUG: Assigned User-Agent Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+2024-01-08 19:41:11 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.sslproxies.org:443
+2024-01-08 19:41:11 [urllib3.connectionpool] DEBUG: https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:41:11 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:41:11 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /uk-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:41:11 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:41:12 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET /anonymous-proxy.html HTTP/1.1" 200 None
+2024-01-08 19:41:12 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): www.free-proxy-list.net:80
+2024-01-08 19:41:12 [urllib3.connectionpool] DEBUG: http://www.free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:41:12 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.free-proxy-list.net:443
+2024-01-08 19:41:16 [urllib3.connectionpool] DEBUG: https://www.free-proxy-list.net:443 "GET / HTTP/1.1" 301 None
+2024-01-08 19:41:16 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): free-proxy-list.net:80
+2024-01-08 19:41:16 [urllib3.connectionpool] DEBUG: http://free-proxy-list.net:80 "GET / HTTP/1.1" 301 None
+2024-01-08 19:41:16 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): free-proxy-list.net:443
+2024-01-08 19:41:16 [urllib3.connectionpool] DEBUG: https://free-proxy-list.net:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:41:16 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): www.us-proxy.org:443
+2024-01-08 19:41:17 [urllib3.connectionpool] DEBUG: https://www.us-proxy.org:443 "GET / HTTP/1.1" 200 None
+2024-01-08 19:41:17 [scrapy_proxy_pool.middlewares] WARNING: No proxies available.
+2024-01-08 19:41:17 [scrapy_proxy_pool.middlewares] INFO: Try to download with host ip.
+2024-01-08 19:41:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:42:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:43:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-01-08 19:44:17 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.myntra.com/> (failed 3 times): User timeout caused connection failure: Getting https://www.myntra.com/ took longer than 180.0 seconds..
+2024-01-08 19:44:17 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.myntra.com/>
+Traceback (most recent call last):
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 1693, in _inlineCallbacks
+    result = context.run(
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\python\failure.py", line 518, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\downloader\middleware.py", line 54, in process_request
+    return (yield download_func(request=request, spider=spider))
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\adity\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\downloader\handlers\http11.py", line 397, in _cb_timeout
+    raise TimeoutError(f"Getting {url} took longer than {timeout} seconds.")
+twisted.internet.error.TimeoutError: User timeout caused connection failure: Getting https://www.myntra.com/ took longer than 180.0 seconds..
+2024-01-08 19:44:17 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-01-08 19:44:17 [scrapy.extensions.feedexport] INFO: Stored json feed (0 items) in: myntra.json
+2024-01-08 19:44:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'bans/error/twisted.internet.error.TimeoutError': 6,
+ 'downloader/exception_count': 6,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 6,
+ 'downloader/request_bytes': 1752,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'elapsed_time_seconds': 1113.998343,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 8, 14, 14, 17, 908440, tzinfo=datetime.timezone.utc),
+ 'log_count/DEBUG': 123,
+ 'log_count/ERROR': 4,
+ 'log_count/INFO': 36,
+ 'log_count/WARNING': 51,
+ 'retry/count': 4,
+ 'retry/max_reached': 2,
+ 'retry/reason_count/twisted.internet.error.TimeoutError': 4,
+ "robotstxt/exception_count/<class 'twisted.internet.error.TimeoutError'>": 1,
+ 'robotstxt/request_count': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2024, 1, 8, 13, 55, 43, 910097, tzinfo=datetime.timezone.utc)}
+2024-01-08 19:44:17 [scrapy.core.engine] INFO: Spider closed (finished)
